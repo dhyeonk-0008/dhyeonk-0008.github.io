@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donghyeon Kim — KAIST Bio and Brain Engineering</title>
+<meta name="description" content="Donghyeon Kim, Ph.D. student at KAIST. Molecular machine learning, computational chemistry, computational biology.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --navy: #004294;
+    --ink: #1f1f1f;
+    --grey: #6b6b6b;
+    --rule: #d9d9d9;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0;
+    font-family: Pretendard, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 5rem;
+  }
+  .card-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-top .school {
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  h1 {
+    font-size: clamp(1.7rem, 4.5vw, 2.25rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0;
+    line-height: 1.15;
+  }
+  h1 small {
+    display: block;
+    font-size: 0.5em;
+    font-weight: 600;
+    color: var(--grey);
+    margin-top: 0.4rem;
+    letter-spacing: 0;
+  }
+  .role p { margin: 0 0 0.25rem; font-weight: 600; }
+  .role p + p { color: var(--grey); font-weight: 400; }
+  .interests { margin: 1.5rem 0 0; color: var(--grey); }
+  .cv {
+    display: inline-block;
+    margin: 2.25rem 0 0;
+    padding: 0.75rem 1.25rem;
+    background: var(--navy);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .cv:hover, .cv:focus-visible { background: #003473; }
+  .cv .date { font-weight: 400; opacity: 0.8; margin-left: 0.5rem; font-size: 0.9em; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0 1.75rem; }
+  dl {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    row-gap: 0.55rem;
+    column-gap: 1rem;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  dt { color: var(--grey); }
+  dd { margin: 0; }
+  a { color: var(--navy); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--navy); outline-offset: 3px; }
+  footer { margin-top: 3rem; font-size: 0.8rem; color: var(--grey); }
+</style>
+</head>
+<body>
+<main>
+  <div class="card-top">
+    <h1>Donghyeon Kim<small>김동현</small></h1>
+    <span class="school">KAIST</span>
+  </div>
+
+  <div class="role">
+    <p>Department of Bio and Brain Engineering</p>
+    <p>Master's and PhD Integrated Course · Bioinformatics and Computational Biology Lab (Prof. Dongsup Kim)</p>
+  </div>
+
+  <p class="interests">Molecular machine learning, computational chemistry, and computational biology.</p>
+
+  <!-- cv.pdf 파일을 이 저장소 루트에 올리면 아래 버튼이 바로 동작합니다. -->
+  <a class="cv" href="cv.pdf">Download CV<span class="date">PDF</span></a>
+
+  <hr>
+
+  <dl>
+    <dt>Email</dt><dd><a href="mailto:kdysmurf@kaist.ac.kr">kdysmurf@kaist.ac.kr</a></dd>
+    <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/donghyeon-kim-045288357">linkedin.com/in/donghyeon-kim-045288357</a></dd>
+    <dt>GitHub</dt><dd><a href="https://github.com/dhyeonk-0008">github.com/dhyeonk-0008</a></dd>
+    <!-- Google Scholar 프로필이 생기면 아래 주석을 풀고 주소를 채우세요. -->
+    <!-- <dt>Scholar</dt><dd><a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a></dd> -->
+    <dt>Office</dt><dd>E16 #515, 291 Daehak-ro, Yuseong-gu, Daejeon 34141</dd>
+  </dl>
+
+  <footer>Department of Bio and Brain Engineering, KAIST</footer>
+</main>
+</body>
+</html>
